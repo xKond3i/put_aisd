@@ -31,4 +31,9 @@
 Wybrany język implementacji: *Python* 🐍
 
 Źródła: \
-[1]: [https://www.cs.put.poznan.pl/mszachniuk/site/teaching/algorytmy-i-struktury-danych/zadania-zaliczeniowe/#Zadanie%201](https://www.cs.put.poznan.pl/mszachniuk/site/teaching/algorytmy-i-struktury-danych/zadania-zaliczeniowe/#Zadanie%201)
+[1]: [https://www.cs.put.poznan.pl/mszachniuk/site/teaching/algorytmy-i-struktury-danych/zadania-zaliczeniowe/#Zadanie%201](https://www.cs.put.poznan.pl/mszachniuk/site/teaching/algorytmy-i-struktury-danych/zadania-zaliczeniowe/#Zadanie%201) \
+[2]: [https://ekursy.put.poznan.pl/pluginfile.php/1046084/mod_resource/content/4/Frohmberg-ASD-temat-1.pdf](https://ekursy.put.poznan.pl/pluginfile.php/1046084/mod_resource/content/4/Frohmberg-ASD-temat-1.pdf) \
+[3]: [https://www.geeksforgeeks.org/merge-sort/](https://www.geeksforgeeks.org/merge-sort/) \
+[4]: [https://www.geeksforgeeks.org/quick-sort/](https://www.geeksforgeeks.org/quick-sort/) \
+[5]: [https://www.geeksforgeeks.org/iterative-quick-sort/](https://www.geeksforgeeks.org/iterative-quick-sort/) \
+[6]: [https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/](https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/)
