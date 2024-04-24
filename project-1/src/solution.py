@@ -17,7 +17,7 @@ if __name__ == '__main__':
     # dataset = gen_ds_rnd(10) # in
     # dataset = gen_ds_asc(10) # in
     # dataset = gen_ds_desc(10) # in
-    # dataset = gen_ds_as(8) # in
+    dataset = gen_ds_as(8) # in
     # dataset = gen_ds_vs(9) # in
     print(f'dataset [in]:', dataset)
 
