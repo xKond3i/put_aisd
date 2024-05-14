@@ -1,7 +1,7 @@
 **Politechnika Poznańska 🎓** \
 *Algorytmy i Struktury Danych*
 
-**Zadanie #2** \
+**Zadanie #3** \
 *Algorytmy grafowe*
 
 **Program**
