@@ -83,7 +83,7 @@ def find_ec(graph, u, cycle):
     return cycle
 
 def euler_cycle(graph): # -> euler cycle | none
-    if euler_cycle_exists(graph) < 0:
+    if euler_cycle_exists(graph) <= 0:
         print("nie znaleziono cyklu eulera.")
         return None
     print("znaleziono cykl eulera:")

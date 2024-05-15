@@ -16,7 +16,7 @@ def is_path_member_valid(graph, path, u, pos):
 # it is pretty much bool Hamiltonian(int v) from the slide
 def find_cycle(graph, path, pos):
     n = len(graph)
-    # CHECK: does the last vertex connects with first? YES: cycle found! NO: 404
+    # CHECK: does the last vertex connect with the first? YES: cycle found! NO: 404
     if pos == n:
         if graph[path[pos-1]][path[0]] == 1:
             return True
