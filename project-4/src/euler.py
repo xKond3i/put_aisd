@@ -82,14 +82,15 @@ def find_ec(graph, u, cycle):
     cycle.append(u+1)
     return cycle
 
-def euler_cycle(graph): # -> euler cycle | none
+def euler_cycle(graph, display=True): # -> euler cycle | none
     if euler_cycle_exists(graph) <= 0:
-        print("nie znaleziono cyklu eulera.")
+        if display: print("nie znaleziono cyklu eulera.")
         return None
-    print("znaleziono cykl eulera:")
     cycle = []
     cycle = find_ec(graph, find_start(graph), cycle)
-    for i, v in enumerate(cycle):
-        if i == len(cycle)-1: print(v)
-        else: print(v, end=", ")
+    if display:
+        print("znaleziono cykl eulera:")
+        for i, v in enumerate(cycle):
+            if i == len(cycle)-1: print(v)
+            else: print(v, end=", ")
     return cycle

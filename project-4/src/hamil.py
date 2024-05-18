@@ -32,16 +32,17 @@ def find_cycle(graph, path, pos):
 
     return False
 
-def hamil_cycle(graph):
+def hamil_cycle(graph, display=True):
     n = len(graph) # number of verticies
     path = [None for _ in range(n)]
     path[0] = 0 # start with the first vertex in the graph
 
     if not find_cycle(graph, path, 1):
-        print("nie znaleziono cyklu hamiltona.")
+        if display: print("nie znaleziono cyklu hamiltona.")
         return None
 
-    print("znaleziono cykl hamiltona:")
-    for v in path: print((v+1), end=", ")
-    print(path[0]+1)
+    if display:
+        print("znaleziono cykl hamiltona:")
+        for v in path: print((v+1), end=", ")
+        print(path[0]+1)
     return path
