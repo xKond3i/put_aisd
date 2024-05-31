@@ -13,6 +13,26 @@ if __name__ == "__main__":
     data = load_items()
     if data == None: exit(-1)
     n, c, items = data
+    
+    # some simple guard clauses (checks) to prevent incorrect data
+    if c <= 0:
+        print("\033[31merr:\033[0m wybrany plecak jest dziurawy!")
+        exit(-1)
+    elif n <= 0:
+        print("\033[31merr:\033[0m brak elementów do zapakowania!")
+        exit(-1)
+    elif n != len(items):
+        print("\033[31merr:\033[0m elementów jest więcej niż założono!")
+        exit(-1)
+    elif all([item.weight > c for item in items]):
+        print("\033[31merr:\033[0m wybrany plecak jest za mały!")
+        exit(-1)
+    elif all([item.weight <= 0 for item in items]):
+        print("\033[31merr:\033[0m znaleziono magiczne przedmioty!")
+        exit(-1)
+    elif all([item.price <= 0 for item in items]):
+        print("\033[31merr:\033[0m znaleziono magiczne przedmioty!")
+        exit(-1)
 
     # show items
     if n != len(items): exit(-1)
